@@ -26,6 +26,4 @@ This website serves as a digital space to showcase my skills, experience, and gr
 
 ---
 
-🔗 Visit my live portfolio [insert link here once deployed]
-
-📫 Connect with me on LinkedIn or by email: [your email here]
+🔗 Visit my live portfolio https://lividede.github.io/My-Portfolio/
