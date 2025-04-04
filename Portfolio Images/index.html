@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+    <html lang="en">
+            <head>
+                    <meta charset="UTF-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Personal Portfolio Website</title>
+                    <link rel="stylesheet" href="style.css">
+                    <!-- Font Awesome Icons --> <script src="https://kit.fontawesome.com/ff42482d6c.js" crossorigin="anonymous"></script>
+            </head>
+            <body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Student Geologist</p>
+            <h1>Hi, I'm <span>Olivia</span><br> Modey from Ghana</h1>
+
+        </div>
+    </div>
+</div>
+<!-----------------about------------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src= "images/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class=" subtitle">About Me</h1>
+                <p>
+                    I am Olivia Modey, a passionate Geological Engineering student with a strong interest in geotechnical engineering, tailings management, and environmental sustainability. With hands-on experience in geological mapping, geotechnical analysis, and laboratory testing, I thrive in problem-solving and applying innovative solutions to engineering challenges. Beyond my technical expertise, I am dedicated to STEM advocacy, mentoring young girls to pursue careers in science and leadership. Currently, I am expanding my knowledge in software development to integrate technology with geological applications.
+                </p>
+                <div class="tab-titles">
+                    <p class= "tab-links active-link" onclick = "opentab('skills')">Skills</p>
+                    <p class= "tab-links" onclick = "opentab('experience')">Experience</p>
+                    <p class= "tab-links" onclick = "opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills"> 
+                    <ul>
+                        <li><span>Geotechnical & Geological Analysis</span><br>Geological mapping, tailings dam stability analysis, slope stability assessment</li>
+                        <li><span>software</span><br>FLAC 2D, Studio RM, Microsoft Office, Microsoft PowerPoint</li>
+                        <li><span>Chemical Analysis</span><br> Water, fertilizer, and Waste Sample Testings</li>
+                        <li><span>Mine Planning & Surveying</span><br>Rock mechanics, pit optimization, Mine Design</li>
+                        <li><span>Instrumentation & Field Work</span><br>Geotechnical instrumentation, Groundwater Monitoring</li>
+                        <li><span>Soft Skills</span><br>Leadership, Presentation skills, Teamwork, problem-solving, time management</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Nov 2024</span><br>Geological Engineering Intern – AngloGold Ashanti, Obuasi Mine</li>
+                        <li><span>Oct 2024</span><br>Intern Analyst – Envaserv Research Consult   </li>
+                        <li><span>May 2024</span><br>Intern Geologist – Rhema Mining Company Limited</li>
+                        <li><span>Oct 2023</span><br>Intern, Petrology & Geotechnical Labs – University of Mines and Technology</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>Bachelor of Science in Geological Engineering</span><br>University of Mines and Technology (UMaT), Tarkwa, Ghana (Jan 2021 – Expected Nov 2025)</li>
+                        <li><span>WASSCE Certificate (General Science)</span><br>Forces Senior High Technical School, Burma Camp, Ghana (Sept 2018 – Oct 2021)</li>
+                        <li><span>Software Development</span><br> Power Learn Project Academy, Feb 2025 – Present</li>
+
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!-----------------interests------------------>
+<div id="interests">
+    <div class="container">
+        <h1 class="sub-title">My Interests</h1>
+        <div class="interests-list">
+            <div> 
+                <i class="fa-solid fa-helmet-safety"></i>
+                <h2>Geotechnical Engineering & Tailings Management</h2>
+                <p>Passionate about ensuring safe and sustainable mine waste disposal.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-line"></i>
+                <h2>Numerical Modeling & Data Analysis</h2>
+                <p>Exploring innovative solutions for complex geological challenges.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Software Development</h2>
+                <p>Learning coding and software engineering to integrate technology with geological applications.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h2>STEM Advocacy & Leadership</h2>
+                <p>Engaging in mentorship programs to encourage young girls to pursue STEM careers.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------portfolio---------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg">
+                <div class="layer">
+                    <h3>Tailings Dam Stability Analysis</h3>
+                    <p>Tool Used: FLAC 2D<br>
+                        Conducted numerical modeling of tailings dams at GoldFields Ghana Ltd., Tarkwa.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a><!-- Link to project -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.jpeg">
+                <div class="layer">
+                    <h3>Water and Fertilizer Sample Analysis</h3>
+                    <p>With: Envaserv Research Consult<br>
+                        Performed laboratory chemical analyses on environmental samples.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.jpg">
+                <div class="layer">
+                    <h3>Geological Mapping and Core Logging</h3>
+                    <p>With: Rhema Mining Company Ltd. & Anglogold Ashanti Obuasi<br>
+                        Created detailed geological maps and logged drill cores.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-4.jpeg">
+                <div class="layer">
+                    <h3>Software Development Training (Ongoing)</h3>
+                    <p>With: Power Learn Project Academy<br>
+                        Building proficiency in software engineering to complement geotechnical work.</p>
+                    <a href="https://github.com/Lividede?tab=repositories"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Lividede"class= "btn">See more</a>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p<i class="fa-solid fa-paper-plane"></i> modeyolivia@gmail.com</p>
+                <p<i class="fa-solid fa-phone"></i>+233 25 667 0673</p>
+                <div class="social-icons"> 
+                <!-- Social Media Icons by NiftyButtons https://niftybuttons.com --><div style="display: flex; flex-wrap:wrap; align-items: center; justify-content: center;"><a href="https://www.facebook.com/itzlivi.demodeygarl" target="_blank" rel="noopener noreferrer" style="text-decoration:none;border:0;width:36px;height:36px;padding:2px;margin:5px;color:#f0f7f8;border-radius:35%;background-color:#3746c9;"><svg class="niftybutton-facebook" style="display:block;fill:currentColor" data-donate="true" data-tag="fac" data-name="Facebook" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><title>Facebook social icon</title>
+    <path d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z"></path>
+</svg></a><a href="https://www.linkedin.com/in/olivia-modey" target="_blank" rel="noopener noreferrer" style="text-decoration:none;border:0;width:36px;height:36px;padding:2px;margin:5px;color:#f0f7f8;border-radius:35%;background-color:#3746c9;"><svg class="niftybutton-linkedin" style="display:block;fill:currentColor" data-donate="true" data-tag="lin" data-name="LinkedIn" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><title>LinkedIn social icon</title>
+    <path d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5 -18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5C171.1 107.9 186.4 123.4 186.4 142.4zM181.4 201.3h-57.8V388.1h57.8V201.3zM273.8 201.3h-55.4V388.1h55.4c0 0 0-69.3 0-98 0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9 0 26.9 0 98 0 98h57.5c0 0 0-68.2 0-118.3 0-50-28.3-74.2-68-74.2 -39.6 0-56.3 30.9-56.3 30.9v-25.2H273.8z"></path>
+</svg></a></div>
+                </div>
+                <a href="My CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Olivia-Modey.</p>
+    </div>
+</div>
+
+<script>
+/*----------------------------define tabs and content of tabs-----------------*/
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+/*-------------------------open tab and display the content when clicked------------------*/ 
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+/*-------------------------add active class and display color-----------------*/
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+            </body>
+            </html> 
